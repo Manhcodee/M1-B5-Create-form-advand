@@ -45,11 +45,12 @@ main {
     flex-direction: column;
     position: absolute;
     top: 0;
-    left: -25px;
+    left: -35px;
     justify-content: center;
 }
 
 .text > span {
-    padding: 66px 0;
+    padding: 58px 0;
     text-transform: uppercase;
+    font-size: 30px;
 }
