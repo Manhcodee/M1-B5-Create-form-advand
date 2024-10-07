@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 900px;
+    height: 500px;
+    margin: 0 auto;
+    border: 1px solid #ffb300;
+}
+
+h1 {
+    text-align: center;
+    color: #0736ff;
+    padding: 20px 0 ;
+}
+
+th, td {
+    text-align: center;
+    width: 65px ;
+    border: 1px solid #a9a9a9;
+}
+
+.day, .day-en, .celendar {
+    height: 30px;
+    width: 95%;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 auto ;
+
+}
+
+.day, .day-en {
+    height: 50px;
+}
+
+.day {
+    border: 1px solid #eee;
+}
+
+.celendar {
+    border: 1px solid #eee;
+    height: 80px;
+}
+
+.color-blue {
+    color: #0433ff;
+}
+
+.color-blue-back {
+    background-color: #0433ff !important;
+}
+
+.color-red {
+    color: #ff2600;
+}
+
+.color-red-back {
+    background: #ff2600 !important;
+}
+
+.white {
+    color: #fff;
+    background-color: #ffb300;
+}
+
+.no-border {
+    border: none;
+}
+
+.celendar-number {
+    font-size: 40px;
+}
+
+.celendar-number > sub {
+    font-size: 20px;
+}
